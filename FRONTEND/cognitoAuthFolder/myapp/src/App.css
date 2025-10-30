@@ -1,0 +1,78 @@
+/* App.css */
+
+/* Ensure the root container takes full height and centers content */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: linear-gradient(135deg, #e0e7ff, #ddd6fe);
+}
+
+/* Style for the main card */
+.main-card {
+  background: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  max-width: 28rem;
+  width: 100%;
+  text-align: center;
+}
+
+/* Welcome heading */
+.welcome-heading {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #2563eb;
+  margin-bottom: 1rem;
+}
+
+/* Welcome message */
+.welcome-message {
+  color: #4b5563;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Sign-out button */
+.signout-button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signout-button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Enhance Amplify Authenticator UI */
+.amplify-authenticator {
+  --amplify-primary-color: #3b82f6;
+  --amplify-primary-tint: #60a5fa;
+  --amplify-primary-shade: #1d4ed8;
+  --amplify-background-color: #f9fafb;
+  --amplify-font-family: 'Inter', sans-serif;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .main-card {
+    padding: 1.5rem;
+  }
+
+  .welcome-heading {
+    font-size: 1.5rem;
+  }
+
+  .welcome-message {
+    font-size: 0.875rem;
+  }
+}

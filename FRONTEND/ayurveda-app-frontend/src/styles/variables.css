@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #4CAF50;
+  --secondary: #FF9800;
+  --background: #F5F5F5;
+  --text: #333;
+  --vata: #2196F3;
+  --pitta: #F44336;
+  --kapha: #4CAF50;
+  --error: #D32F2F;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
